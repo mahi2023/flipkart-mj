@@ -6,6 +6,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class girlscloth {
     @GetMapping("/girlscloth")
     public String getData(){
-        return "only boys  allowed ";
+        return "only boys allowed ";
     }
 }
